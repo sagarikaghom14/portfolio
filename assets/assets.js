@@ -85,49 +85,72 @@ export const assets = {
 export const workData = [
     {
         title: 'Authentication App (MERN Stack)',
-        description: 'Web Design',
+        description: 'Website',
         bgImage: '/work-1.jpg',
+        githubLink: 'https://github.com/sagarikaghom14/MERN-Auth-App'
     },
     {
         title: 'Uber Clone (MERN Stack)',
         description: 'Web App',
         bgImage: '/work-2.jpeg',
+        githubLink: 'https://github.com/sagarikaghom14/UBER'
     },
     {
         title: 'AI-Powered-Code-Reviewer',
-        description: 'Web Design',
+        description: 'Website',
         bgImage: '/work-3.png',
+        githubLink: 'https://github.com/sagarikaghom14/AI-Powered-Code-Reviewer'
     },
     {
         title: 'Hospital Management System',
-        description: 'Web Design',
+        description: 'Website',
         bgImage: '/work-4.jpg',
+        githubLink: 'https://github.com/sagarikaghom14/Hospital_Management'
     },
+    {
+        title: 'Ecommerece App',
+        description: 'Website',
+        bgImage: '/work-5.png',
+        githubLink: 'https://github.com/sagarikaghom14/Ecommerce-App'
+    },
+    {
+        title: 'Employee Management System',
+        description: 'Website',
+        bgImage: '/work-6.png',
+        githubLink: 'https://github.com/sagarikaghom14/EMS'
+    },
+    {
+        title: 'AI-Object-Detector',
+        description: 'Website',
+        bgImage: '/work-7.png',
+        githubLink: 'https://github.com/sagarikaghom14/AI-Object-Detector'
+    }
 ]
+
 
 export const serviceData = [
     { 
         icon: assets.web_icon, 
-        title: 'Full-Stack Development', 
-        description: 'Building complete web applications using the MERN stack with responsive and dynamic interfaces.', 
+        title: 'Full-Stack Development',
+        description: 'Crafting modern, responsive, and secure web applications using the MERN stack and RESTful APIs.',
         link: '' 
     },
     { 
         icon: assets.cloud_icon, 
-        title: 'Cloud Deployment', 
-        description: 'Deploying scalable applications on AWS with best practices using Docker, Jenkins, and CI/CD pipelines.', 
+        title: 'Cloud & DevOps',
+        description: 'Building scalable infrastructure and automating deployments with AWS, Docker, and CI/CD tools.',
         link: '' 
     },
     { 
-        icon: assets.ui_icon, 
-        title: 'UI/UX & Animations', 
-        description: 'Designing beautiful, user-friendly interfaces with smooth animations to enhance user experience.', 
+        icon:assets.automation_icon, 
+        title: 'CI/CD & Automation',
+        description: 'Implementing efficient CI/CD pipelines using GitHub Actions, AWS CodePipeline, and scripting tools to automate delivery.',
         link: '' 
     },
     { 
-        icon: assets.automation_icon, 
-        title: 'Automation & CI/CD', 
-        description: 'Implementing CI/CD pipelines for efficient development workflows using Jenkins, GitHub Actions, and Docker.', 
+        icon:assets.graphics_icon , 
+        title: 'Creative Design',
+        description: 'Designing eye-catching posters, decks, and social posts using Canva and photo editing tools.',
         link: '' 
     },
 ];
